@@ -2,24 +2,26 @@ KivyLayout
 
 <KivyLayout>:
     orientation: "vertical"
+    spacing: 5
+    Button:
+        text: "Kivy Layout"
+        size_hint: 1,.2
+        background_color: "red"
     BoxLayoutExample
         spacing: 5
         orientation: "horizontal"
-        Button:
-            text: "Kivy Layout"
-            size_hint: 2,.2
-            background_color: "red"
+
 
         BoxLayoutOne
             spacing: 5
             orientation: "horizontal"
             Button:
                 text: "Button A"
-                size_hint: .2,1.5
+                size_hint: .2,1
                 background_color: "blue"
             Button
                 text: "Button B"
-                size_hint: .2,1.5
+                size_hint: .2,1
                 background_color: "blue"
         BoxLayoutTwo
             spacing:5
